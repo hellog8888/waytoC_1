@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(void)
+{
+    unsigned short N;
+    scanf("%hu", &N);
+
+    printf("%1.f\n", ceil((N / 100.0) * 7));
+
+    return 0;
+}
